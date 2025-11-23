@@ -4,11 +4,9 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: center ;
-   
 }
 
 header{
-
     top: 0;
     width:100%;
     background-color: #faeddf;
@@ -16,8 +14,6 @@ header{
     border: 3px solid;
     border-color: rgb(255, 223, 228);
     border-radius: 40px;
-   
-   
 }
 
 .instructions{
@@ -39,7 +35,6 @@ header{
     align-items: center;
     min-height: 100vh;
     padding-top: 0.3rem;
-   
 }
 
 #calculator{
@@ -54,7 +49,6 @@ header{
     gap: 8px;
     padding: 16px;
     border: solid 4px rgb(195, 206, 247);
-
 }
 
 .display{
@@ -68,7 +62,7 @@ header{
 }
 
 .pinkbutton{
-    font-size: 1.5rem;
+    font-size: 2rem;
     border-radius: 12px;
     cursor: pointer;
     background-color: rgb(255, 223, 228);
@@ -76,13 +70,17 @@ header{
 }
 
 .bluebutton{
-    font-size: 1.5rem;
+    font-size: 2rem;
     border-radius: 12px;
     cursor: pointer;
     background-color: rgb(195, 206, 247);
      border-color: #faeddf;
 }
 
+button:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px #6e6b68;
+}
 
 .span-2{
     grid-column: span 2;
@@ -97,4 +95,14 @@ footer{
     border: 3px solid;
     border-color: rgb(255, 223, 228);
     border-radius: 40px;
+}
+
+.display.flash{
+    animation: flash-bg 0.2s;
+}
+
+@keyframes flash-bg{
+    0% {background-color: #faeddf;}
+    50% {background-color: #ffffff;}
+    100% {background-color: #faeddf;}
 }

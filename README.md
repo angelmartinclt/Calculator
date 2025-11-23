@@ -1,9 +1,7 @@
 Pastel Calculator Website
-Through this application users are able to perform simple math arithmetic questions using many buttons such as:
-+ addition
-- subtraction
-/ division
-* multiplication
-% percentage
-While also using the C button to clear out the current question and the = equality button to get your answer!
-This website is hosted through AWS Amplify: https://master.d1833urx3nivjy.amplifyapp.com/ so you can check it out at any time!
+
+Through this application users are able to perform simple math arithmetic questions using specific buttons such as:
+addition, subtraction, multiplcation, division and even the decimal button!
+Users can also use the C button to clear out any current question and the equal button to get the answer to any desired questions. 
+This application is hosted on AWS Amplify: https://master.d1833urx3nivjy.amplifyapp.com/
+
