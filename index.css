@@ -1,0 +1,100 @@
+body{
+    background-image: url(mark-tegethoff-NMLv5HQZnK4-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center ;
+   
+}
+
+header{
+
+    top: 0;
+    width:100%;
+    background-color: #faeddf;
+    opacity: 90%;
+    border: 3px solid;
+    border-color: rgb(255, 223, 228);
+    border-radius: 40px;
+   
+   
+}
+
+.instructions{
+    font-size: 20px;
+    color:  rgb(108, 138, 248);
+    margin: 10px;
+}
+
+
+.header{
+    color:rgb(108, 138, 248);
+    font-size: 30px;
+    text-align: center;
+}
+
+.calculator-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 0.3rem;
+   
+}
+
+#calculator{
+    display:grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows: auto repeat(5,80px);
+    box-sizing: border-box;
+    max-width: 400px;
+    width: 100%;
+    background: transparent;
+    border-radius: 40px;
+    gap: 8px;
+    padding: 16px;
+    border: solid 4px rgb(195, 206, 247);
+
+}
+
+.display{
+    grid-column: 1 / -1;
+    background-color: #faeddf;
+    font-size: 2rem;
+    border-radius: 10px;
+    border: 3px solid rgb(195, 206, 247);
+    text-align: right;
+    padding:1rem;
+}
+
+.pinkbutton{
+    font-size: 1.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(255, 223, 228);
+    border-color: #faeddf;
+}
+
+.bluebutton{
+    font-size: 1.5rem;
+    border-radius: 12px;
+    cursor: pointer;
+    background-color: rgb(195, 206, 247);
+     border-color: #faeddf;
+}
+
+
+.span-2{
+    grid-column: span 2;
+}
+
+footer{
+    width:100%;
+    background-color: #faeddf;
+    opacity: 90%;
+    text-align: center;
+    color:  rgb(108, 138, 248);
+    border: 3px solid;
+    border-color: rgb(255, 223, 228);
+    border-radius: 40px;
+}
