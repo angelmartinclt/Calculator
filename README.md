@@ -6,6 +6,7 @@ addition ,
 subtraction ,
 multiplication ,
 division ,
+percentage, 
 even the decimal button!
 
 Users can also use the C button to clear out any current question and the equal button to get the answer to any desired questions. 
