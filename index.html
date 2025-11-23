@@ -10,14 +10,14 @@
     
     <header>
         <h1 class="header">Pastel Calculator Website</h1>
-        <p class="instructions"><strong>With this caclulator you can perform simple math arithmetic using the :<br>
+        <p class="instructions"><strong>With this calculator you can provide simple math arithmetic questions using the following buttons :<br>
             + addition button<br>
             - subtraction button<br>
             / division button<br>
             * multiplication button<br>
-            You can also use decimals! The C button clears your current question and the = equal sign is how you get your answer! </strong>
+            % percentage button<br>
+            You can also use decimals, the C button clears your current question and the = equal sign is how you get your answer! </strong>
         </p>
-
     </header>
 
     <main class="calculator-wrapper">
@@ -27,47 +27,41 @@
             <div id="display" class="display">0</div>
 
             <!-- Buttons -->
-
             <!-- First Row-->
-             <button class="pinkbutton" data-action="number" data-value="0">0</button>
             <button class="pinkbutton" data-action="number" data-value="1">1</button>
             <button class="pinkbutton" data-action="number" data-value="2">2</button>
+            <button class="pinkbutton" data-action="number" data-value="3">3</button>
             <button class="bluebutton operator" data-action="operator" data-value="+">+</button>
 
             <!-- Second Row-->
-             <button class="pinkbutton" data-action="number" data-value="3">3</button>
             <button class="pinkbutton" data-action="number" data-value="4">4</button>
             <button class="pinkbutton" data-action="number" data-value="5">5</button>
-             <button class="bluebutton operator" data-action="operator" data-value="-">-</button>
+            <button class="pinkbutton" data-action="number" data-value="6">6</button>
+            <button class="bluebutton operator" data-action="operator" data-value="-">-</button>
+        
             <!-- Third Row-->
-             <button class="pinkbutton" data-action="number" data-value="6">6</button>
             <button class="pinkbutton" data-action="number" data-value="7">7</button>
             <button class="pinkbutton" data-action="number" data-value="8">8</button>
-             <button class="bluebutton operator" data-action="operator" data-value="*">*</button>
+            <button class="pinkbutton" data-action="number" data-value="9">9</button>
+            <button class="bluebutton operator" data-action="operator" data-value="*">*</button>
 
             <!-- Fourth Row-->
             <button class="bluebutton" data-action="decimal" data-value="." >.</button>
-            <button class="pinkbutton" data-action="number" data-value="9">9</button>
-             <button class="bluebutton operator" data-action="operator" data-value="/">/</button>
-            
+            <button class="pinkbutton" data-action="number" data-value="0">0</button>
+            <button class="bluebutton operator" data-action="operator" data-value="/">/</button>
+            <button class="bluebutton operator" data-action="percent" data-value="%">%</button>
             
             <!-- Fifth Row-->
             <button class="bluebutton span-2" data-action="clear" >C</button>
             <button class="bluebutton span-2" data-action="equals">=</button>
             
-            
-
-             
         </div>
-        
     </main>
 
     <footer>
         <h1>Calculator made possible by Angel Martin!</h1>
-
     </footer>
     
-
     <script src="index.js"></script>
 </body>
 </html>
